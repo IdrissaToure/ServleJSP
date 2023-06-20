@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 juin 2023, 14:21:33
+    Author     : tour.idrissa
+*/
+body{
+    background-image: url(../ima/server.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.box
+regbox{
+    width: 320px;
+    height: 420px;
+    background: #2f3542;
+    margin: 0;
+    padding: 30;
+    top: 55%;
+    left: 50%;
+    color: #ffff;
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(-50, -50);
+    box-sizing: border-box;
+}
+.avatar{
+    margin: 0;
+    padding: 0;
+    width: 150%;
+    height: 150%;
+    top: -22%;
+    position: absolute;
+    left: calc(50% , 75px);
+    
+}
+
